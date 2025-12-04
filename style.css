@@ -10,7 +10,7 @@
   --border-radius: 0.75rem;
   --max-width: 1200px;
   --spacing-lg: 3rem;
-  --spacing-md: 1.25rem;
+  --spacing-md: 2.5rem;
   --spacing-sm: 1.25rem;
   --transition-speed: 0.3s;
 }
@@ -80,7 +80,7 @@ h3 {
 
 p {
   margin-top: 0;
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: 0;
   color: var(--color-text);
 }
 
@@ -353,7 +353,7 @@ footer a:focus {
 @media (max-width: 640px) {
     .language-switcher {
         padding: 0.3rem 0.5rem;
-        top: 92.5%}
+        top: 94.6%}
 }
   
 /* Responsive: AJUSTES GLOBALES PARA PANTALLAS PEQUEÑAS */
@@ -378,7 +378,7 @@ footer a:focus {
     /* 3. Ajustes de Espaciado */
     section {
         padding: var(--spacing-sm); 
-        margin-bottom: var(--spacing-md); 
+        margin-bottom: var(--spacing-sm); 
     }
 
     /* 4. Ajustes Específicos del Header */
@@ -408,6 +408,7 @@ footer a:focus {
     }
 
 }
+
 
 
 

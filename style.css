@@ -352,9 +352,8 @@ footer a:focus {
 /* AJUSTE PARA MÓVILES */
 @media (max-width: 640px) {
     .language-switcher {
-        top: var(--spacing-sm); /* 1.25rem del borde superior */
-        right: var(--spacing-sm); /* 1.25rem del borde derecho */
         padding: 0.3rem 0.5rem;
+        top: 92.5%}
 }
   
 /* Responsive: AJUSTES GLOBALES PARA PANTALLAS PEQUEÑAS */
@@ -409,6 +408,7 @@ footer a:focus {
     }
 
 }
+
 
 
 

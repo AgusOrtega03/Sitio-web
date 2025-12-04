@@ -80,6 +80,7 @@ h3 {
 h4 {
   font-weight: 600;
   font-size: 1.2rem;
+  color: #b9c1cb;
   margin-bottom: 0.25rem;
   margin-top: 1.25rem;
   user-select: none;
@@ -410,6 +411,7 @@ footer a:focus {
     }
 
 }
+
 
 
 

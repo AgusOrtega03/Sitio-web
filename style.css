@@ -63,6 +63,7 @@ h1, h2 {
 
 h1 {
   font-size: 3.25rem;
+  margin-bottom: 1rem;
 }
 h2 {
   font-size: 2rem;
@@ -74,6 +75,13 @@ h3 {
   font-weight: 600;
   color: var(--color-heading);
   font-size: 1.35rem;
+  user-select: none;
+}
+h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+  margin-top: 1.25rem;
   user-select: none;
 }
 
@@ -141,7 +149,7 @@ header h1 {
 header p {
   font-weight: 600;
   color: var(--color-link);
-  margin-bottom: 0.1rem;
+  margin-bottom: 0;
 }
 header p a {
   color: var(--color-link);
@@ -207,7 +215,7 @@ section#projects h3 a:focus {
   user-select: none;
 }
 
-/* Caja2*/
+/* Caja2 */
 .caja2 {
   background: #1a2f3b;
   border-radius: var(--border-radius);
@@ -307,17 +315,16 @@ footer a:focus {
 }
 
 .flag-icon {
-    width: 45px; /* Define un tamaño fijo para la imagen (¡Esto achica la bandera!) */
+    width: 50px; /* Define un tamaño fijo de la bandera */
     height: auto;
     vertical-align: middle;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .language-switcher {
-    /* Posición Fija en la ventana (no se mueve al hacer scroll) */
-    position: fixed;
-    bottom: var(--spacing-md); /* 2.5rem del borde superior */
-    right: var(--spacing-md); /* 2.5rem del borde derecho */
+    position: fixed; /* Posición Fija en la ventana (no se mueve al hacer scroll) */
+    bottom: var(--spacing-sm);
+    right: var(--spacing-sm);
     
     /* Diseño */
     color: var(--color-heading) !important;
@@ -333,21 +340,15 @@ footer a:focus {
 
 .language-switcher:hover,
 .language-switcher:focus {
-    /* Efecto al pasar el ratón */
-    background-color: var(--color-link); /* Usa tu color de enlace principal */
+    background-color: var(--color-link);
     color: white !important;
     text-decoration: none !important;
 }
 
-/* Ajuste para que las banderas se vean centradas y no demasiado grandes */
+/* Ajuste para centrar las banderas */
 .language-switcher {
-    /* ... Tus reglas de posición y color se mantienen ... */
-    
-    /* Nueva regla: Asegura que el contenido del enlace sea grande y centrado */
-    font-size: 1.2rem; /* Haz el emoji un poco más grande para que destaque */
-    line-height: 1; /* Esto ayuda a centrar el emoji verticalmente */
-    
-    /* El padding también puede necesitar un ajuste sutil */
+    font-size: 1.2rem;
+    line-height: 2.0rem; /* Centrado vertical */
     padding: 0.4rem 0.5rem; 
 }
 
@@ -355,7 +356,7 @@ footer a:focus {
 @media (max-width: 640px) {
     .language-switcher {
         padding: 0.3rem 0.5rem;
-        top: 94.6%}
+        top: 92.5%}
 }
   
 /* Responsive: AJUSTES GLOBALES PARA PANTALLAS PEQUEÑAS */
@@ -385,8 +386,7 @@ footer a:focus {
 
     /* 4. Ajustes Específicos del Header */
     header {
-        /* Reduce el padding vertical para ahorrar espacio en móvil */
-        padding: var(--spacing-sm) var(--spacing-sm); 
+        padding: var(--spacing-sm) var(--spacing-sm); /* Reduce el padding vertical */
         margin-bottom: var(--spacing-md);
     }
     
@@ -410,6 +410,7 @@ footer a:focus {
     }
 
 }
+
 
 
 

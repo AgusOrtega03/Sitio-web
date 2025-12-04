@@ -85,7 +85,7 @@ p {
 }
 
 ul, li {
-  margin: 0;
+  margin-bottom: 0.5rem;
   padding: 0;
   list-style-position: inside;
   color: var(--color-text);
@@ -179,7 +179,7 @@ section#projects h3 a:focus {
   border-radius: var(--border-radius);
   padding: var(--spacing-sm);
   box-shadow: 0 1px 3px var(--shadow-light);
-  margin-bottom: var(--spacing-md);
+  margin-bottom: 3.1rem;
   margin-top: var(--spacing-md);
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
   border: 1px solid transparent;
@@ -410,6 +410,7 @@ footer a:focus {
     }
 
 }
+
 
 
 

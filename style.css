@@ -413,6 +413,10 @@ footer a:focus {
         margin: 0 0.15rem; 
     }
 
+        footer p {
+        font-size: 0.625rem;
+    }
+  
     /* 5. Ajustes de Componentes */
     ul.skills-list {
         columns: 1;
@@ -423,6 +427,7 @@ footer a:focus {
     }
 
 }
+
 
 
 

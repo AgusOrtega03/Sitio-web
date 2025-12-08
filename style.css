@@ -348,15 +348,14 @@ footer a:focus {
 
 /* Ajuste para centrar las banderas */
 .language-switcher {
-    font-size: 1.2rem;
     line-height: 2.0rem; /* Centrado vertical */
-    padding: 0.4rem 0.5rem; 
+    padding: 0.35rem 0.5rem; 
 }
 
 /* AJUSTE PARA MÓVILES */
 @media (max-width: 640px) {
     .language-switcher {
-        padding: 0.35rem 0.4rem;
+        padding: 0.4rem 0.4rem;
         }
 }
   
@@ -411,6 +410,7 @@ footer a:focus {
     }
 
 }
+
 
 
 

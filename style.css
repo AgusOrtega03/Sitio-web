@@ -412,9 +412,15 @@ footer a:focus {
         font-size: 0.9rem;
         margin: 0 0.15rem; 
     }
-
-        footer p {
+  
+    footer {
+       padding: 0.5rem;
+       margin-bottom: 2rem;
+      }   
+  
+     footer p {
         font-size: 0.625rem;
+        margin-bottom: 0.5rem;
     }
   
     /* 5. Ajustes de Componentes */
@@ -427,6 +433,7 @@ footer a:focus {
     }
 
 }
+
 
 
 

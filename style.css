@@ -356,8 +356,8 @@ footer a:focus {
 /* AJUSTE PARA MÓVILES */
 @media (max-width: 640px) {
     .language-switcher {
-        padding: 0.3rem 0.5rem;
-        top: 92.5%}
+        padding: 0.35rem 0.4rem;
+        }
 }
   
 /* Responsive: AJUSTES GLOBALES PARA PANTALLAS PEQUEÑAS */
@@ -411,6 +411,7 @@ footer a:focus {
     }
 
 }
+
 
 
 

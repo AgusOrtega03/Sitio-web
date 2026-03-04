@@ -134,6 +134,7 @@ header {
   max-width: var(--max-width);
   background-color: #234C6A;
   padding: var(--spacing-md) var(--spacing-md);
+  padding-bottom: 1.5rem;
   border-radius: var(--border-radius);
   box-shadow: 0 1px 6px var(--shadow-medium);
   z-index: 10;
@@ -146,6 +147,10 @@ header {
 
 header h1 {
   user-select: text;
+}
+header h4 {
+  user-select: text;
+  margin-bottom: 0.75rem;
 }
 header p {
   font-weight: 600;
@@ -433,6 +438,7 @@ footer a:focus {
     }
 
 }
+
 
 
 
